@@ -1,0 +1,18 @@
+.App {
+    --header_height: 60px;
+}
+
+.hw {
+    border-top: 1px solid rgb(217, 217, 217);
+    border-bottom: 1px solid rgb(217, 217, 217);
+    padding: 24.5px 70px 34.5px 70px;
+}
+
+.hwTitle {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+}
