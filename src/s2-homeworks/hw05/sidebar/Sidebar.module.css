@@ -1,24 +1,84 @@
 .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background-color: white;
+    transition: 600ms;
+    z-index: 0;
+
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .sidebar.open {
+    width: 317px;
+    transition: 300ms;
+    border: 1px solid lightgray;
+    z-index: 10;
+    box-shadow: 0 1px 2px 0 rgba(29, 33, 38, 0.1), 0 10px 40px 0 rgba(29, 33, 38, 0.13);
+    background: rgb(255, 255, 255);
 }
 
 .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Затемнение с прозрачностью 50% */
+    z-index: 9; /* Убедитесь, что затемнение находится за боковым меню */
 }
 
+
 .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 63px auto;
 }
 
 .nav a {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    text-decoration: none;
+    margin-bottom: 45px;
 }
 
 .nav a:hover {
+    color: rgb(88, 172, 255);
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.active {
+    color: rgb(0, 89, 178);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    text-decoration-line: underline;
 }
 
 .nav a.active {
+    color: rgb(0, 89, 178);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    text-decoration-line: underline;
 }
+
 .close {
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+
 }
 
 .close img {
