@@ -1,4 +1,7 @@
 .buttonsContainer {
+    :nth-child(2){
+        margin-left: 24px;
+    }
 }
 
 .editableSpanContainer {
