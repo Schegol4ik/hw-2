@@ -1,4 +1,5 @@
 .item {
+    border-bottom: 1px solid rgb(229, 229, 229);;
 }
 
 .item:last-of-type {
@@ -8,16 +9,31 @@
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: center;
+
 }
 
 .container {
 }
 
 .thead {
+    background: rgb(229, 229, 229);
+    height: 36px;
+    width: 605px;
 }
 
+
+
 .nameCol {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    width: 500px;
 }
 
 .ageCol {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
 }
