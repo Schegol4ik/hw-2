@@ -2,7 +2,14 @@
 }
 
 .wrapper {
+    display: flex;
+    align-items: center;
+    margin: 56px 0;
 }
 
 .number {
+    margin: 0 12px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
 }
