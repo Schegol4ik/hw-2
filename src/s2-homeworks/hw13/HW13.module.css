@@ -2,21 +2,44 @@
 }
 
 .responseContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+
 }
 
 .imageContainer {
+    margin-right: 100px;
 }
 
 .image {
+
 }
 
 .textContainer{
 }
 
 .code {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    text-align: left;
+    margin-bottom: 12px;
 }
 
 .text {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
 }
 .info {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
 }
